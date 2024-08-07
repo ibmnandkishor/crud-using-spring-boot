@@ -7,7 +7,7 @@ import jakarta.validation.constraints.*;
 public class ProductDto {
 	@NotEmpty(message="The name is required")
 	private String name;
-	
+	 
 	@NotEmpty(message="The brand is required")
 	private String brand;
 	
