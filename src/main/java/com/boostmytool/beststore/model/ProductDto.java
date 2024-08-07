@@ -3,7 +3,7 @@ package com.boostmytool.beststore.model;
 import org.springframework.web.multipart.MultipartFile;
 
 import jakarta.validation.constraints.*;
-  
+   
 public class ProductDto {
 	@NotEmpty(message="The name is required")
 	private String name;
